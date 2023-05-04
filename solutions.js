@@ -19,7 +19,7 @@
 
 // // define the function
 // const checkPalindrome = (str) => {
-//     // I want to set the string to lower case and replace 
+//     // I want to set the string to lower case and replace
 //     // unnecessary characters of the string
 //     str = str.toLowerCase().replace(/\W/g, '');
 //     // loop over every letter in the string
@@ -76,3 +76,35 @@
 // Section 4
 //////////////////////
 
+// // Define a function that checks for the prime numbers
+// function checkPrime(num) {
+//   // numbers less than or equal to 1 cannot be prime
+//   if (num <= 1) return false;
+//   // loop over every number starting from 2
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//     // if num is dividable by i(2) and the remainder is 0, we want to return false;
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+//   // if prime, it will print true
+//   return true;
+// }
+// // console.log(checkPrime(12))
+
+// // Define the function that will print my prime numbers
+// function printPrime(num) {
+//    // loop over every value up until the limit we set
+//   for (let i = 2; i <= num; i++) {
+//     // conditional for true if it is a prime number (our function call checks here)
+//     if (checkPrime(i)) {
+//         // I log the prime number value to the console
+//       console.log(`${i}`);
+//     }
+//   }
+// }
+// printPrime(20);
+
+//////////////////////
+// Section 5
+//////////////////////
