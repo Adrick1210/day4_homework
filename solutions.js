@@ -51,3 +51,28 @@
 //////////////////////
 // Section 3
 //////////////////////
+
+// // Define the function sumArray
+// function sumArray(array){
+//     // Define the variable sum starting at a value 0;
+//     let sum = 0;
+//     // Loop over ever item in the array and add it to the sum variable
+//     for (let i = 0; i < array.length; i += 1) {
+//         sum += array[i]
+//     }
+//     // Can console log from inside this function || can console log outside
+//     console.log(sum);
+//     // Return the summed value of sum after every item is added to the sum variable
+//     return sum;
+// }
+
+// // This will console log sum twice as there's two calls to console log
+// console.log(sumArray([1,3,5,6,9])) // 24
+// // This will console log 56 once as the console log call is inside of our function
+// sumArray([10, 2, 35, -3, 12]) // 56
+// sumArray([-2,-12,14, 22, 1]) // 23
+
+//////////////////////
+// Section 4
+//////////////////////
+
