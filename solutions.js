@@ -97,7 +97,7 @@ function printPrime(num) {
    // loop over every value up until the limit we set
   for (let i = 2; i <= num; i++) {
     // conditional for true if it is a prime number (our function call checks here)
-    if (checkPrime(i) ? true: false) {
+    if (checkPrime(i)) {
         // I log the prime number value to the console
       console.log(`${i}`);
     }
